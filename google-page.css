@@ -1,0 +1,91 @@
+# Google-clone
+Google-clone
+.header {
+  margin: 20px 0 0;
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+}
+.header-item {
+  display: block;
+  align-items: center;
+  margin: 0 10px;
+}
+.header-item-option {
+  scale: 1.2rem;
+}
+.htem {
+  text-decoration: none;
+}
+.header-item:hover{
+  text-decoration: underline;
+}
+.header-item-option:hover{
+  background:gray;
+  border-radius: 50%;
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+}
+
+#logo{
+  position: relative;
+  width: 300px;
+  height: 100px;
+  margin: 5% 0;
+}
+
+#textbox {
+  height: 35px;
+  width: 550px;
+  border: 0.8px solid lightgray;
+  border-radius: 1em;
+  margin-top: 1rem;
+}
+
+#textbox:checked{
+  border: white;
+}
+
+.bookmark 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 550px;
+  height: 200px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  margin: 50px;
+}
+.bookmark-item {
+  display: block;
+  flex-direction: column;
+  justify-content:center;
+  width: 110px;
+  height: 100px;
+  padding:0 5px;
+  /* flex-wrap: wrap; */
+}
+.bookmark-item-img {
+  display: block;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #efefef;
+  
+}
+.bookmark-item-link {
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.bookmark-item:hover {
+  background-color: #bdbdbd;
+  border-radius: 0.5rem;
+}
